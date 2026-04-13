@@ -13,11 +13,12 @@ int main()
     cin >> m;
 
     cout << n << " to power number: ";
+    cout << result << ", ";
 
-    for (int i = 1; i <= m; i++) {
+    for (int i = 1; i <= m + 1; i++) {
         result = result * n;
         cout << result;
-        if (i < m) {
+        if (i < m + 1) {
             cout << ", ";
         }
     }
